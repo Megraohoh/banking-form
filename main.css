@@ -1,7 +1,19 @@
-input:valid {
-    background-color: green;
+#email:invalid, #tel:invalid, #url:invalid {
+  background: red;
 }
 
-input:invalid {
-    background-color: red;
+#email:valid, #tel:valid, #url:valid {
+  background: green;
+}
+
+
+body {
+  padding: 3em;
+}
+label {
+  display: block;
+}
+input {
+  padding: 0.25em 0;
+  margin-bottom: 0.75em;
 }
